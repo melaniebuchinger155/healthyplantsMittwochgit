@@ -41,7 +41,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-1dp"
         android:clickable="false"
-        android:hint="Gießintervall"
+        android:hint="Gießtag"
         android:inputType="datetime"
         android:textColor="@color/colorPrimary"
         android:textColorLink="@color/colorPrimary" />
@@ -90,19 +90,20 @@
 
     <Button
         android:id="@+id/btnView"
-        android:layout_width="49dp"
-
-
-        android:layout_height="24dp"
+        android:layout_width="93dp"
+        android:layout_height="23dp"
         android:layout_below="@+id/btnAdd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom|end"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/listbtn" />
 
 </RelativeLayout>

@@ -112,7 +112,6 @@
         <activity android:name=".Person" />
         <activity android:name=".addplantsActivity"
             android:screenOrientation="portrait"
-
         />
         <activity android:name=".DatabaseHelper" />
         <activity android:name=".ThreeColumn_ListAdapter" />

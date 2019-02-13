@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Healthy Plants</string>
+//HardcodedText vermeiden!!!
 
-    <string name="Beenden">Beenden</string>
-    <string name="Impressum">Impressum</string>
+
     <string name="impressumtext">
         Healthy Plants\n
         Geschäftsführerin: Melanie Buchinger\n
@@ -20,7 +19,10 @@
         Steuernummer: 200 60 80 70\n
         \n
         Bankverbindung: DE 20 7650 0000 0000 123456\n
-        BIC: BYLADEM1ANS\n</string>
+        BIC: BYLADEM1ANS\n
+    </string>
+
+
 
     <string name="helptext">
         Healthy Plants\n
@@ -30,53 +32,44 @@
         Mail: hilfe@healthyplants.de\n
         \n
         Anschrift:\n  Feldstr. 6\n
-        91564 Neuendettelsau</string>
-
-
-    <string name="pflanzenhinzufuegen">Pflanze hinzufügen</string>
-
-
-    <string name="menuhilfe">Hilfe</string>
-    <string name="menufaq">FAQ´s</string>
-    <string name="menubeenden">Beenden</string>
-    <string name="menuimpressum">Impressum</string>
-    <string name="faqsheadline">FAQ´s</string>
-    <string name="meinGarten">mein Garten</string>
-
-    <string name="appbeschreibung">
-             Grüner Daumen Fehlanzeige? \n
-        \n
-\n
-			Mit Hilfe von Healthy Plants hast du in Zukunft all deine Pflanzen im Blick
-            und vergisst nie wieder sie rechtzeitig zu gießen.\n
-\n
-			Zu Beginn legst du ganz einfach deinen eigenen kleinen Garten an und
-            bestimmst selbst wie oft die Pflanze gegossen werden soll.\n
-\n
-			Um Verwechslungen zu vermeiden, kannst du jeder Pflanze einen Namen und
-            zuordnen.\n\n
-\n
-			Das ist auch schon alles!\n
-\n\n
-			Healthy Plants benachrichtigt dich zuverlässig, wenn deine Lieblinge Wasser brauchen.\n
-\n
-			Damit deine Pflanzen in Zukunft noch besser wachsen findest du außerdem ein Pflanzenlexikon mit wertvollen Pflegetipps.\n
-			Um nicht lang nach deiner Pflanze suchen zu müssen, findest du in unserem Starterkit NFC Tags zu den beliebtesten Pflanzen.\n
-\n
-			Klebe das Tag einfach auf deinen Blumentopf.\n
-			Für nützliche Tipps brauchst du jetzt nur noch dein Handy an den Topf halten.\n
-\n
-			So kann nichts mehr schief gehen.\n
-        \n
-\n
-			Viel Spaß beim gärteln :)\n
-
-
-
-
+        91564 Neuendettelsau
     </string>
 
-    <string name="Beschreibung">Beschreibung</string>
+
+
+
+
+
+
+
+    <string name="appbeschreibung">
+        Grüner Daumen Fehlanzeige? \n
+        \n
+        \n
+        Mit Hilfe von Healthy Plants hast du in Zukunft all deine Pflanzen im Blick
+        und vergisst nie wieder sie rechtzeitig zu gießen.\n
+        \n
+        Zu Beginn legst du ganz einfach deinen eigenen kleinen Garten an und
+        bestimmst selbst wie oft die Pflanze gegossen werden soll.\n
+        \n
+        Um Verwechslungen zu vermeiden, kannst du jeder Pflanze einen Namen und
+        zuordnen.\n
+        \n
+        Das ist auch schon alles!
+        \n
+        Healthy Plants benachrichtigt dich zuverlässig, wenn deine Lieblinge Wasser brauchen.\n
+        \n
+        Damit deine Pflanzen in Zukunft noch besser wachsen findest du außerdem ein Pflanzenlexikon mit wertvollen Pflegetipps.\n
+        Um nicht lang nach deiner Pflanze suchen zu müssen, findest du in unserem Starterkit NFC Tags zu den beliebtesten Pflanzen.\n
+        \n
+        Klebe das Tag einfach auf deinen Blumentopf.\n
+        Für nützliche Tipps brauchst du jetzt nur noch dein Handy an den Topf halten.\n
+        \n
+        So kann nichts mehr schief gehen.\n
+        \n
+        Viel Spaß beim gärteln :)\n
+    </string>
+
 
     <string name="Answerfaq1">1. Gerät neu starten\n
         \n
@@ -92,15 +85,19 @@
         \n
         7. Push-Token zurücksetzen\n
         \n
-        8. Google Play-Dienste aktualisieren\n</string>
-    <string name="Mailadresse">hilfe@healthyplants.de</string>
-    <string name="Kundenhotline">Kundenhotline: 0800 47 86 85 86</string>
+        8. Google Play-Dienste aktualisieren\n
+    </string>
+
+
     <string name="Fallsnichthilft">
         \nFalls das alles nichts hilft,\n setze dich bitte mit unserer Kundenhotline\n
         in Verbindung oder sende uns eine Mail.\n
         \n
         Kundenhotline: 0800 47 86 85 86 \n
         \n Mail: hilfe@healthyplants.de </string>
+
+
+
     <string name="answerfaq2">Mit den nachfolgenden Tipps ist das Problem schnell wieder behoben.\n
         \n
         1. Achten Sie darauf, keine Schutzhüllen oder Cases zu verwenden.\n
@@ -110,34 +107,37 @@
         3. Ebenso sollten Sie darauf achten, einen originalen Akku von Ihrem Smartphone Hersteller zu verwenden, da das NFC-Modul sich meist dort drin befindet.\n
         \n
         4. In einigen Fällen kann es helfen, wenn Sie unter > Einstellungen > Apps > NFC den Cache und die Daten löschen.\n
+    </string>
 
 
-             </string>
+
 
 
     <string name="pflegetipps">
-Standort\n
-Die als Zimmerpflanze kultivierte Aloe Vera braucht möglichst viel Sonne. Je mehr, desto besser. Außerdem braucht sie einen nährstoffreichen Boden.Die als Zimmerpflanze kultivierte Aloe Vera braucht möglichst viel Sonne. Je mehr, desto besser. Außerdem braucht sie einen nährstoffreichen Boden.
-\n
-\n
-Pflege\n
-Aloe Vera gedeiht am besten an Südfenstern. Sie speichert in ihren dicken Blättern Wasser und kann deshalb längere Zeit ohne gießen überleben.
-\n
-\n
-Überwinterung\n
-Im Laufe des Septembers solltest du die Aloe Vera wieder ins Haus holen. Im Haus kann sie während des Winters ruhig etwas kühler stehen. Bei kühlem Stand sollte das gießen reduziert und das Düngen eingestellt werden. Die Temperatur sollte nicht unter 10° Celsius fallen.
-\n
-\n
-Blütezeit\n
-Die Aloe Vera ist eine immergrüne Pflanze.
-\n
-\n
+        Standort\n
+        Die als Zimmerpflanze kultivierte Aloe Vera braucht möglichst viel Sonne. Je mehr, desto besser. Außerdem braucht sie einen nährstoffreichen Boden.Die als Zimmerpflanze kultivierte Aloe Vera braucht möglichst viel Sonne. Je mehr, desto besser. Außerdem braucht sie einen nährstoffreichen Boden.
+        \n
+        \n
+        Pflege\n
+        Aloe Vera gedeiht am besten an Südfenstern. Sie speichert in ihren dicken Blättern Wasser und kann deshalb längere Zeit ohne gießen überleben.
+        \n
+        \n
+        Überwinterung\n
+        Im Laufe des Septembers solltest du die Aloe Vera wieder ins Haus holen. Im Haus kann sie während des Winters ruhig etwas kühler stehen. Bei kühlem Stand sollte das gießen reduziert und das Düngen eingestellt werden. Die Temperatur sollte nicht unter 10° Celsius fallen.
+        \n
+        \n
+        Blütezeit\n
+        Die Aloe Vera ist eine immergrüne Pflanze.
+        \n
+        \n
+    </string>
 
-
-
-             </string>
-
-
+    <string name="Beschreibung">Beschreibung</string>
+    <string name="Mailadresse">hilfe@healthyplants.de</string>
+    <string name="Kundenhotline">Kundenhotline: 0800 47 86 85 86</string>
+    <string name="app_name">Healthy Plants</string>
+    <string name="Beenden">Beenden</string>
+    <string name="Impressum">Impressum</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -151,6 +151,12 @@ Die Aloe Vera ist eine immergrüne Pflanze.
     <string name="title_activity_faq">FAQ´s</string>
     <string name="title_activity_impressum_activity">Impressum</string>
     <string name="title_activity_view_list_contents">ViewListContents</string>
-
+    <string name="pflanzenhinzufuegen">Pflanze hinzufügen</string>
+    <string name="menuhilfe">Hilfe</string>
+    <string name="menufaq">FAQ´s</string>
+    <string name="menubeenden">Beenden</string>
+    <string name="menuimpressum">Impressum</string>
+    <string name="faqsheadline">FAQ´s</string>
+    <string name="meinGarten">mein Garten</string>
 
 </resources>
