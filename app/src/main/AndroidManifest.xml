@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="buchinger.melanie.healthyplants">
 
-    <uses-permission android:name="android.permission.NFC" />
 
+
+    //Implementiert und erlaubt die Verwendung der NFC-Technologie
+    <uses-permission android:name="android.permission.NFC" />
     <uses-feature
         android:name="android.hardware.nfc"
         android:required="true" />
@@ -12,6 +14,9 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logohp144"
@@ -19,50 +24,72 @@
         android:roundIcon="@mipmap/logohp144"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".closeactivity" />
+
+
+
+        <activity android:name=".closeactivity" /> //Beenden der App auf Knopfdruck innerhalb des Menüs
+
         <activity
             android:name=".faq1activity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" /> //Verhindert beim drehen des Handys das automatische umschalten in den LandscapeModus
+
+
         <activity
             android:name=".faq2activity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".faq3activity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".meinGartenActivity"
             android:label="@string/title_activity_mein_garten"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".HilfeActivity2"
             android:label="@string/title_activity_hilfe2"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".BeschreibungActivitiy"
             android:label="@string/title_activity_beschreibung_activitiy"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".faqActivity"
             android:label="@string/title_activity_faq"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Impressum_activity"
             android:label="@string/title_activity_impressum_activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
+
+
+
+        //Den einzelnen Activitys wird hier die NFC Technologie zugeschrieben
+        Damit nicht nur die MainActivity nach Kontakt mit dem Tag geöffnet wird,
+        sondern explizit die passende PflanzenActivity, habe ich mit Hilfe der App NDEF Writer (siehe .readme)
+        jeder Activity einen mimeType zugeordnet.
+
         <activity
             android:name=".aloeveraActivity"
             android:screenOrientation="portrait">
@@ -74,6 +101,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".orchiedeeActivity"
             android:screenOrientation="portrait">
@@ -85,6 +114,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".basilikumActivity"
             android:screenOrientation="portrait">
@@ -96,6 +127,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".primelActivity"
             android:screenOrientation="portrait">
@@ -107,19 +140,27 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+
         <activity android:name=".ListMainActivity" />
         <activity android:name=".PersonListAdapter" />
         <activity android:name=".Person" />
+
         <activity android:name=".addplantsActivity"
-            android:screenOrientation="portrait"
-        />
+            android:screenOrientation="portrait"/>
+
         <activity android:name=".DatabaseHelper" />
         <activity android:name=".ThreeColumn_ListAdapter" />
         <activity android:name=".User" />
+
         <activity
             android:name=".ViewListContents"
             android:label="@string/title_activity_view_list_contents"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
     </application>
 
 </manifest>
