@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="334dp"
+        android:layout_marginTop="316dp"
         android:hint="Pflanzenname"
         android:inputType="textShortMessage"
         android:textAppearance="@style/TextAppearance.AppCompat"
@@ -40,9 +40,10 @@
         android:layout_below="@+id/etLastName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-1dp"
+        android:autoText="false"
         android:clickable="false"
-        android:hint="Gießtag"
-        android:inputType="datetime"
+        android:hint="Zuletzt gegossen"
+        android:inputType="date"
         android:textColor="@color/colorPrimary"
         android:textColorLink="@color/colorPrimary" />
 
@@ -53,7 +54,7 @@
         android:layout_below="@+id/etFavFood"
 
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="12dp"
         android:background="@color/colorAccent"
         android:text="Pflanze hinzufügen"
         android:textAppearance="@style/TextAppearance.AppCompat"
@@ -78,8 +79,8 @@
     <Button
         android:id="@+id/buttonphoto"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
 
         android:layout_below="@+id/imageViewplaceholder"
         android:layout_marginStart="-141dp"
