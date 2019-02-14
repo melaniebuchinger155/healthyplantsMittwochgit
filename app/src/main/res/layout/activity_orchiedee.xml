@@ -36,7 +36,7 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <ImageView
-            android:id="@+id/basilikumpic"
+            android:id="@+id/orchideenpic"
             android:layout_width="234dp"
             android:layout_height="281dp"
             android:layout_marginStart="8dp"
@@ -96,6 +96,23 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/basilikumpic"
             app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/backbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="296dp"
+            android:layout_marginLeft="296dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/backbutton"
+            android:onClick="onClickbtnback"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tipps"
+            app:layout_constraintVertical_bias="0.48000002" />
 
     </android.support.constraint.ConstraintLayout>
 

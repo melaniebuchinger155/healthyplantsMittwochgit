@@ -1,5 +1,5 @@
 <resources>
-//HardcodedText vermeiden!!!
+    //HardcodedText vermeiden!!!
 
 
     <string name="impressumtext">
@@ -23,7 +23,6 @@
     </string>
 
 
-
     <string name="helptext">
         Healthy Plants\n
         \n
@@ -34,12 +33,6 @@
         Anschrift:\n  Feldstr. 6\n
         91564 Neuendettelsau
     </string>
-
-
-
-
-
-
 
 
     <string name="appbeschreibung">
@@ -97,7 +90,6 @@
         \n Mail: hilfe@healthyplants.de </string>
 
 
-
     <string name="answerfaq2">Mit den nachfolgenden Tipps ist das Problem schnell wieder behoben.\n
         \n
         1. Achten Sie darauf, keine Schutzhüllen oder Cases zu verwenden.\n
@@ -108,9 +100,6 @@
         \n
         4. In einigen Fällen kann es helfen, wenn Sie unter > Einstellungen > Apps > NFC den Cache und die Daten löschen.\n
     </string>
-
-
-
 
 
     <string name="pflegetipps">
