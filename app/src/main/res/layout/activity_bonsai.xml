@@ -12,11 +12,11 @@
 
         <TextView
             android:id="@+id/BonsaiName"
-            android:layout_width="wrap_content"
+            android:layout_width="384dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="30dp"
@@ -24,6 +24,7 @@
             android:fontFamily="casual"
             android:padding="5dp"
             android:text="Bonsaibaum"
+            android:textAlignment="center"
             android:textColor="@android:color/background_light"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -44,35 +45,14 @@
             android:layout_marginTop="120dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginBottom="14dp"
-            android:src="@mipmap/bonsaipic"
+            android:layout_marginBottom="50dp"
 
+            android:src="@mipmap/bonsaipic"
             app:layout_constraintBottom_toTopOf="@+id/tipps"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/tipps"
-            android:layout_width="387dp"
-            android:layout_height="509dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="60dp"
-
-            android:background="@color/colorPrimary"
-
-            android:fontFamily="casual"
-            android:onClick="onClickbtnback"
-            android:padding="10dp"
-            android:text="@string/pflegetipps"
-            android:textColor="@android:color/background_light"
-            app:fontFamily="casual"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/basilikumpic" />
 
         <TextView
             android:id="@+id/tippsheadline"
@@ -81,10 +61,11 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
+            android:layout_marginBottom="4dp"
             android:fontFamily="casual"
             android:text="Pflegetipps"
-            android:textColor="@color/colorPrimary"
 
+            android:textColor="@color/colorPrimary"
             android:textSize="25sp"
             android:textStyle="bold"
             app:fontFamily="casual"
@@ -111,6 +92,27 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tipps"
             app:layout_constraintVertical_bias="0.48000002" />
+
+        <TextView
+            android:id="@+id/tipps"
+            android:layout_width="387dp"
+            android:layout_height="509dp"
+            android:layout_marginTop="40dp"
+
+            android:layout_marginBottom="60dp"
+
+            android:background="@color/colorPrimary"
+            android:fontFamily="casual"
+            android:onClick="onClickbtnback"
+            android:padding="10dp"
+            android:text="@string/pflegetipps"
+            android:textColor="@android:color/background_light"
+            app:fontFamily="casual"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basilikumpic" />
 
     </android.support.constraint.ConstraintLayout>
 

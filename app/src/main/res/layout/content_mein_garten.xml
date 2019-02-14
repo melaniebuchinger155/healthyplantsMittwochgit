@@ -7,35 +7,7 @@
     android:background="@color/colorAccent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".meinGartenActivity"
-    tools:showIn="@layout/activity_mein_garten"><![CDATA[
-
-    android:id="@+id/pflanzehinzufuegen"
-    android:onClick="onClickaddplantsbtn"
-    android:layout_width="320dp"
-    android:layout_height="76dp"
-    android:layout_marginStart="53dp"
-    android:layout_marginLeft="53dp"
-    android:layout_marginTop="41dp"
-    android:layout_marginEnd="53dp"
-    android:layout_marginRight="53dp"
-    android:layout_marginBottom="419dp"
-    android:background="@android:color/background_light"
-    android:fadingEdge="none"
-    android:paddingLeft="@android:dimen/notification_large_icon_width"
-    android:paddingRight="@android:dimen/notification_large_icon_height"
-    android:text="@string/pflanzenhinzufuegen"
-    android:textAppearance="@style/TextAppearance.AppCompat"
-    android:textColor="@color/colorAccent"
-    android:textSize="18sp"
-    android:textStyle="bold"
-    android:typeface="normal"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
-
-
-    ]]>
+    tools:showIn="@layout/activity_mein_garten">
 
     <ListView
         android:id="@+id/listView1"
@@ -48,4 +20,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.577" />
+    
 </android.support.constraint.ConstraintLayout>
